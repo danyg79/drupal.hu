@@ -12,6 +12,7 @@ permissions:
   - 'access content'
   - 'access devel information'
   - 'access kint'
+  - 'display eu cookie compliance popup'
   - 'legal view data_protection'
   - 'legal view terms_of_use'
   - 'view media'
