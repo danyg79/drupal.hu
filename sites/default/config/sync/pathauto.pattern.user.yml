@@ -1,0 +1,14 @@
+uuid: e11daf7a-7506-4cd0-b044-130e42656f37
+langcode: hu
+status: true
+dependencies:
+  module:
+    - user
+id: user
+label: Felhasználó
+type: 'canonical_entities:user'
+pattern: 'tagok/[user:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

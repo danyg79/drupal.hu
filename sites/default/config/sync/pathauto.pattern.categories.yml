@@ -1,0 +1,29 @@
+uuid: 00d68056-164e-4f7f-a4e0-181e53cf6a17
+langcode: hu
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: categories
+label: Kategóriák
+type: 'canonical_entities:taxonomy_term'
+pattern: 'kategoriak/[term:vocabulary:name]/[term:name]'
+selection_criteria:
+  4a259213-8d34-4eb1-beae-9fc429ee08be:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      competence: competence
+      drupal_version: drupal_version
+      forums: forums
+      planet: planet
+      project: project
+      tag: tag
+      target_audience: target_audience
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 4a259213-8d34-4eb1-beae-9fc429ee08be
+selection_logic: and
+weight: -5
+relationships: {  }

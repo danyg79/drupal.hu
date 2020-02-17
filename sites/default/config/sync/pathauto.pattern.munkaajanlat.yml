@@ -1,0 +1,22 @@
+uuid: 6d537da9-24f8-44d2-bbec-f7f61590d1cb
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+id: munkaajanlat
+label: Munka
+type: 'canonical_entities:node'
+pattern: 'allas/[node:nid]'
+selection_criteria:
+  9d1671c3-48b5-44dc-9d9e-e36ae5a5c3f8:
+    id: node_type
+    bundles:
+      job: job
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9d1671c3-48b5-44dc-9d9e-e36ae5a5c3f8
+selection_logic: and
+weight: -5
+relationships: {  }
