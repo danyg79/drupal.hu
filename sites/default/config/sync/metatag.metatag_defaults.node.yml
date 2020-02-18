@@ -1,0 +1,27 @@
+uuid: 94acbca1-9353-426a-8c99-28f149f873fa
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  title: '[node:title] | [site:name]'
+  content_language: hu-HU
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  article_modified_time: '[node:changed:long]'
+  article_published_time: '[node:created:long]'
+  og_type: '[node:content-type:name]'
+  og_url: '[node:url:path]'
+  og_description: '[node:app_teaser]'
+  article_tag: '[node:app_tags]'
+  og_site_name: '[site:name]'
+  article_author: '[node:author:original:account-name]'
+  og_title: '[node:title]'
+  twitter_cards_site: '@drupalhu'
+  twitter_cards_page_url: '[node:url:path]'
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_type: summary
+  twitter_cards_title: '[node:title]'
